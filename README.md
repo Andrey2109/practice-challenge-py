@@ -5,4 +5,4 @@ This repository contains a curated set of Python coding challenges and solutions
 
 ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github) [Medvedev Andrey](https://github.com/Andrey2109)
 
-![LinkedIn](https://img.shields.io/badge/-GitHub-blue?style=flat-square&logo=github): [Medvedev Andrey](https://www.linkedin.com/in/andreymedvedev2109)
+![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin) [Medvedev Andrey](https://www.linkedin.com/in/andreymedvedev2109)
