@@ -40,19 +40,25 @@ import unittest
 def page_count(n, p):
     from_start_point = 1
     from_end_point = n
-    num_to_turn_from_start = 0
-    num_to_turn_from_end = 0
+    num_to_turn_from_start = num_to_turn_from_end = 0
+
     while from_start_point < p:
         num_to_turn_from_start += 1
         from_start_point += 2
-    while from_end_point > p:
-        num_to_turn_from_end += 1
-        from_end_point -= 2
+    if n % 2 == 0:
+        while from_end_point > p:
+            num_to_turn_from_end += 1
+            from_end_point -= 2
+    else:
+        while from_end_point - 1 > p:
+            num_to_turn_from_end += 1
+            from_end_point -= 2
 
     return min(num_to_turn_from_start, num_to_turn_from_end)
 
 
-print(page_count(5, 5))
+print(page_count(5, 4))
+
 
 # more efficient solution:
 # def page_count(n, p):
